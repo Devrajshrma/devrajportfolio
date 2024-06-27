@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devraj Sharma Portfolio</title>
 
-    <!-- my css -->
+    <!--logo-->
     <link rel="shortcut icon" href="https://i.pinimg.com/236x/cd/c5/43/cdc543c56b12c9bad9cdbc45e330c833.jpg" type="image/x-icon">
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- my css -->
     <link rel="stylesheet" href="./style.css">
@@ -18,7 +21,7 @@
 
 <body>
     <div class="container">
-        <header>
+        <header data-aos="fade-right" data-aos-duration="500">
             <div class="nm">
                 Devraj Sharma
                 <br>
@@ -35,12 +38,12 @@
             </div>
         </header>
         <section>
-            <div class="hero">
+            <div class="hero" data-aos="fade">
                 <img src="./img/me.jpeg" alt="">
             </div>
         </section>
 
-        <section id="sec2">
+        <section id="sec2" data-aos="fade-right" data-aos-duration="500">
             <div class="s2">
                 <div class="lt">
                     As a UI developer, I create software design concepts and ideas into reality using front end
@@ -58,7 +61,7 @@
             </div>
         </section>
 
-        <section id="sec3">
+        <section id="sec3" data-aos="fade-right" data-aos-duration="500">
             <div class="s3">
                 <div class="lt3">
                     <h3>(What I do)</h3>
@@ -94,7 +97,7 @@
             </div>
         </section>
 
-        <section id="sec4">
+        <section id="sec4" data-aos="fade-right" data-aos-duration="500">
                 <div class="pb">
                     <div class="pbd"><span><i class="ri-html5-fill"></i></span><progress value="100" max="100"></progress></div>
                     <div class="pbd"><span><i class="ri-css3-fill"></i></span><progress value="90" max="100"></progress></div>
@@ -108,7 +111,7 @@
                 </div>
         </section>
 
-        <footer>
+        <footer data-aos="fade">
             <div class="f1">
                 <div class="name">DEVRAJ SHARMA</div>
                 <div class="getrdy">( READY TO WORK )</div>
@@ -130,6 +133,13 @@
 
     <!-- my js -->
     <script src="./script.js"></script>
+
+    <!-- AOS Library js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
