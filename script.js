@@ -28,3 +28,4 @@ tippy('#Resume', {
   window.addEventListener("load", function(){
     document.querySelector(".ldr").style.display='none'
   })
+  
