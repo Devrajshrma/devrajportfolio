@@ -17,10 +17,16 @@
 
 <!-- Remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
 </head>
 
 <body>
     <div class="container">
+        <div class="ldr">
+            <span class="loader">
+                <img src="./img/logo.png" alt="">
+            </span>
+        </div>
         <header data-aos="fade-right" data-aos-duration="500">
             <div class="nm">
                 Devraj Sharma
@@ -53,9 +59,9 @@
                 <div class="rt">
                     <div>(About Me)</div>
                     <div>
-                        <a href="https://www.linkedin.com/in/devraj-sharma-a792682b3/" target="_blank"><i class="ri-linkedin-line"></i></a>
-                        <a href="https://github.com/Devrajshrma" target="_blank"><i class="ri-github-line"></i></a>
-                        <a href="./resume.docx"><i class="ri-download-cloud-fill"></i></a>
+                        <a id="linkedin" href="https://www.linkedin.com/in/devraj-sharma-a792682b3/" target="_blank"><i class="ri-linkedin-line"></i></a>
+                        <a id="Github" href="https://github.com/Devrajshrma" target="_blank"><i class="ri-github-line"></i></a>
+                        <a id="Resume" href="./resume.pdf" target="_blank"><i class="ri-file-pdf-2-fill"></i></a>
                     </div>
                 </div>
             </div>
@@ -131,9 +137,14 @@
 
     </div>
 
+    
+    <!-- tippy js -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
     <!-- my js -->
     <script src="./script.js"></script>
-
+    
     <!-- AOS Library js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
