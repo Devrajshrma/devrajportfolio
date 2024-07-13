@@ -273,10 +273,10 @@ header {
 footer {
     width: 100%;
     height: auto;
-    padding: 100px 0px 50px 0px;
-    display: grid;
-    grid-template-rows: 20vmax 200px 12vmax;
-    align-items: end;
+    padding: 10vmax 0px 2vmax 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #1E1E21;
     color: #F5F3EF;
@@ -286,19 +286,36 @@ footer {
     text-align: center;
     font-weight: 600;
     line-height: 8vmax;
+    margin-bottom: 10vmax;
 }
 
 .name {
-    font-size: 9vw;
+    font-size: 10vw;
 }
 
 .getrdy {
     font-size: 27px;
 }
 
+footer button{
+    padding: 1.5vmax;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+footer button:active{
+   scale: .9;
+}
+
 .f2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10vmax;
 }
 
 .f2c {
@@ -414,7 +431,7 @@ footer {
     }
 
     .f2 {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         row-gap: 25px;
     }
 
@@ -437,6 +454,7 @@ footer {
     .pbd {
         margin-bottom: 40px;
     }
+
 
 }
 
